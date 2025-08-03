@@ -4,7 +4,7 @@ A comprehensive Flask-based parking management system with proper MVC architectu
 
 ## Project Structure
 
-\`\`\`
+```
 parking_app/
 ├── app.py                      # Main Flask application
 ├── models/                     # Database models
@@ -32,22 +32,22 @@ parking_app/
 ├── app.py                    # Configuration setting
 ├── openapi.yaml              # Defines the structure and endpoints of the RESTful API
 └── requirements.txt          # Python dependencies
-\`\`\`
+```
 
 ## Installation and Running the Application
 
 To run this application, you need to have Python and pip installed on your system.
 
 1. **Install dependencies:**
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 2. **Initialize the database (if not already done):**
    If you're running for the first time or want to reset the database, delete the `parking_app.db` file from the project root, then proceed to step 3. The database will be recreated automatically.
 3. **Run the application:**
-   \`\`\`bash
+   ```bash
    python app.py
-   \`\`\`
+   ```
 4. **Access the application:** Open your web browser and go to `http://localhost:5000`.
 5. **Stop the application:** Press `Ctrl+C` in your terminal.
 
